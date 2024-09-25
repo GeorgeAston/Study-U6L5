@@ -1,17 +1,18 @@
 body {
+  /* Main page that visitors see */
   background-color: mediumseagreen;
     font-family: "Helvetica", sans-serif;
     color: purple;
 }
  h1 {
+  /* Largest heading */
     color: Azure;
     font-family: "Times New Roman", serif;
   }
 
 
-
-
 nav ul {
+  /* Navigation bar */
     background-color: #ff6347;
     border-style: solid;
     border-color: MediumVioletRed;
@@ -21,6 +22,7 @@ nav ul {
   }
 
     nav ul li {
+      /* Items in the navigation bar */
         list-style-type: none;
         display: inline;
         margin-right: 10px;
@@ -28,14 +30,17 @@ nav ul {
         color: PapayaWhip;
     }
     nav ul li a {
+      /* Linked items in the navigation bar */
       text-decoration: none;
       color: indigo;
   }
 
 img {
+/* Images */
   border-radius: 20px;
 }
 img:hover {
+  /* Hovering over images */
   border: 2px dashed navy;
 }
 
